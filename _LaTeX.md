@@ -1,4 +1,4 @@
-
+ 
 Automatically adjust the size of the parentheses based on the size of the fractions: `\left(`, `\right)`: $\left(1 + \frac{1}{n}\right)^{n}$
 
 The same with absolute signs:
