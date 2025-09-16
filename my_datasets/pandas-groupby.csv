@@ -1,0 +1,11 @@
+Age,Sex,Smoker,Salary
+10,male,yes,100
+11,male,yes,105
+12,male,yes,110
+
+15,male,no,111
+16,male,no,120
+
+30,female,no,50
+31,female,no,51
+

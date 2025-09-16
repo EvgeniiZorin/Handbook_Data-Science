@@ -1,0 +1,35 @@
+Column Descriptors:
+planetOrder: The order of the planet from the Sun.
+name: Name of the planet.
+description: A brief description of the planet's features.
+wikiLink: Wikipedia link to the planet's page for more information.
+imgSrc: URL to an image of the planet.
+type: Classification of the planet (e.g., Terrestrial, Gas Giant).
+diameter_km: Diameter of the planet in kilometers.
+mass_kg: Mass of the planet in kilograms.
+distance_from_sun_km: Distance of the planet from the Sun in kilometers.
+average_orbital_distance_AU: Average distance from the Sun in Astronomical Units (AU).
+orbital_period_days: Orbital period of the planet in Earth days.
+rotation_period_hours: Time taken for one full rotation of the planet in hours.
+number_of_moons: Number of moons orbiting the planet.
+ring_system: Boolean value indicating the presence of a ring system.
+global_magnetic_field: Boolean value indicating whether the planet has a global magnetic field.
+average_temperature_celsius: Average surface temperature of the planet in Celsius.
+surface_pressure_bars: Atmospheric pressure at the planet’s surface, in bars.
+atmospheric_composition: Primary gases in the planet’s atmosphere.
+notable_features: Unique physical or atmospheric features of the planet.
+escape_velocity_km_s: The escape velocity of the planet in kilometers per second.
+axial_tilt_degrees: The axial tilt of the planet in degrees.
+albedo: Reflectivity of the planet’s surface (albedo).
+gravity_m_s2: Surface gravity in meters per second squared (m/s²).
+day_length_earth_days: Length of a day on the planet in Earth days.
+density_g_cm3: Density of the planet in grams per cubic centimeter (g/cm³).
+surface_composition: The planet's primary surface materials.
+volume_km3: Volume of the planet in cubic kilometers.
+mean_orbital_speed_km_s: The average speed at which the planet orbits the Sun in km/s.
+orbital_eccentricity: The eccentricity of the planet's orbit (how elliptical the orbit is).
+synodic_period_days: The time between successive alignments of the planet with the Earth and the Sun, in days.
+orbital_inclination_degrees: Inclination of the planet's orbit in degrees.
+surface_area_km2: The surface area of the planet in square kilometers.
+solar_constant_W_m2: The amount of solar energy received per unit area, in watts per square meter.
+magnetic_field_strength_uT: Strength of the planet’s magnetic field in microteslas (µT).
