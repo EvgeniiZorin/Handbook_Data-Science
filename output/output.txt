@@ -1,0 +1,204 @@
+.
+├── .ML_DL_CV.ipynb
+├── .ML_NLP.ipynb
+├── .ML_classical.ipynb
+├── .Numpy.ipynb
+├── .Pandas.ipynb
+├── .Statistics.ipynb
+├── .Visualisations.ipynb
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── HEAD
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               ├── HEAD
+│   │               └── main
+│   ├── objects
+│   │   ├── 04
+│   │   │   └── d7edfa8bd61b421f13609e6c9ddd3887dacb74
+│   │   ├── 0f
+│   │   │   └── 70404492ad94fee381b0912f3d05c015409c8b
+│   │   ├── 18
+│   │   │   └── fd8cf71d2b7b23a1d0432b2e615e9bb01aace9
+│   │   ├── 19
+│   │   │   └── 2df10c74d6dd2f4539a6bff1daa32d0478054b
+│   │   ├── 1b
+│   │   │   └── 33fe61bf82366080e4cf6079e09946f90f8f45
+│   │   ├── 24
+│   │   │   └── 2941890d2b80bfb380724e0399bc55b7356ba8
+│   │   ├── 26
+│   │   │   └── 62e092d9952f60c0222fb1dafa279c92b67828
+│   │   ├── 2c
+│   │   │   └── d2db2d25d0be4bc55f9235cbfe13d760aa9e53
+│   │   ├── 38
+│   │   │   └── 2e9dcf77b4c41bf50997ee3045785cb2d7a559
+│   │   ├── 3a
+│   │   │   └── 88430bfe80d657f4b744944e89c55ded854c38
+│   │   ├── 78
+│   │   │   └── e59970f6bc8c159aa7e1e4ca61be93f50e6621
+│   │   ├── 7d
+│   │   │   └── bc6400e4a0b67ed31ba13a5f3b197dd481f542
+│   │   ├── 9e
+│   │   │   └── 5260d9e8b2fcb70c3c88b4dff3c40d9b543646
+│   │   ├── ab
+│   │   │   └── 1900724a747355563297dc273f531bce326f8c
+│   │   ├── b4
+│   │   │   └── 1fdaf4a9939c101e4d6569cb750eba1930d01d
+│   │   ├── bd
+│   │   │   └── 28624eee6749a9f18b2d765411113eae2343ca
+│   │   ├── c0
+│   │   │   └── a0811fbb70c3192905785647cd063bd8c6418b
+│   │   ├── cb
+│   │   │   └── 6c514ab56f88b375dcc61bc11b851663150caa
+│   │   ├── cd
+│   │   │   ├── 9086b4043625a7315f0afaadc97cc405234858
+│   │   │   └── d2e4a2c747b5ff0fa501153d9378e9fe0867c8
+│   │   ├── d0
+│   │   │   └── 342d9548f36ed2c80bec2ef2a3c368544a752a
+│   │   ├── dc
+│   │   │   └── d53fed75a415a0b6ec5e1b442f65b4804a2244
+│   │   ├── df
+│   │   │   └── a7583bfc51c5fe8090c75178ea6a2a02708306
+│   │   ├── f8
+│   │   │   └── 905a140833a0e90f995c51eb621a4e5f62a5b0
+│   │   ├── fa
+│   │   │   └── 60be4a610f0a0f31563a6501fb2311283b603f
+│   │   ├── fd
+│   │   │   └── 23db5f3e15d69879578b432bc6bb738aa34c97
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-12b759f3769a892393a78c069f5f8245dee711c5.idx
+│   │       └── pack-12b759f3769a892393a78c069f5f8245dee711c5.pack
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       ├── remotes
+│       │   └── origin
+│       │       ├── HEAD
+│       │       └── main
+│       └── tags
+├── Media
+│   ├── Bar_plots.png
+│   ├── Bayes.png
+│   ├── Bernoulli_distribution.png
+│   ├── Bernoulli_distribution_2.png
+│   ├── Binomial-distribution.png
+│   ├── CNN.gif
+│   ├── Central_dogma_of_statistics.png
+│   ├── Contingency-table.png
+│   ├── Crosstabulation.png
+│   ├── Digit_five.png
+│   ├── Dotplot.png
+│   ├── Dotplot_2.png
+│   ├── Exponential-vs-powerlaw.jpg
+│   ├── False_positive_etc.png
+│   ├── Frequency_distribution_table.png
+│   ├── IQR.png
+│   ├── IQR_2.png
+│   ├── KMeans.png
+│   ├── Logistic_regression.png
+│   ├── NN.png
+│   ├── Pictograph.png
+│   ├── Quartile.png
+│   ├── Residuals.png
+│   ├── SD.png
+│   ├── SVM.png
+│   ├── Sigmoid.png
+│   ├── Stem_and_leaf.png
+│   ├── Two-way_frequency_table.png
+│   ├── Variance.png
+│   ├── Venn.png
+│   ├── YOLO.png
+│   ├── ann.png
+│   ├── artificial_neuron.png
+│   ├── chi_square_distributions.png
+│   ├── cnn.png
+│   ├── cnn2.png
+│   ├── cnn3.png
+│   ├── cnn_1.png
+│   ├── cnn_2.png
+│   ├── cnn_3.png
+│   ├── cnn_4.png
+│   ├── cnn_architecture.png
+│   ├── cv.png
+│   ├── leaky_relu.png
+│   ├── mutually-exclusive-events.png
+│   ├── named_colors_seaborn.webp
+│   ├── neuron.png
+│   ├── normal-distribution.png
+│   ├── not-mutually-exclusive-events.png
+│   ├── one-hot-encoding.png
+│   ├── overfit.png
+│   ├── pr_curve.png
+│   ├── pr_curve2.png
+│   ├── pr_curve3.png
+│   ├── pr_curve4.png
+│   ├── r-cnn.png
+│   ├── r-cnn2.png
+│   ├── relu.png
+│   ├── step.png
+│   ├── t-test.png
+│   ├── tanh.png
+│   ├── underfit.png
+│   ├── unet.png
+│   ├── yolo_architecture.png
+│   ├── z-distribution.png
+│   └── z-t-distributions.png
+├── __pycache__
+│   └── utils.cpython-310.pyc
+├── adsf.jpg
+├── clean_titanic_data.csv
+├── example_datasets
+│   ├── CASP14_2020.csv
+│   ├── Hypercuboids_data.csv
+│   ├── IPDS7_hyperrectangles_2.tsv
+│   ├── ML
+│   │   ├── IMDB_Dataset.csv
+│   │   └── car.data
+│   ├── NLP
+│   │   ├── alice.json
+│   │   ├── alice_unclean.txt
+│   │   ├── indexes.tsv
+│   │   ├── nytimes_article.txt
+│   │   ├── stock_exchanges.tsv
+│   │   ├── stocks.tsv
+│   │   ├── wiki_mlk.txt
+│   │   └── wiki_us.txt
+│   ├── chart.jpg
+│   ├── loan200.csv
+│   └── players.csv
+├── newplot.png
+├── output.txt
+├── photo1.jpg
+├── photo2.jpg
+├── photo3.jpg
+├── preprocessed_titanic_data.csv
+├── temp.ipynb
+└── utils.py
+
+46 directories, 155 files
