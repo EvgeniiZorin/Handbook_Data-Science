@@ -1,0 +1,58 @@
+wandb_version: 1
+
+epochs:
+  desc: null
+  value: 10
+batch_size:
+  desc: null
+  value: 128
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.16
+    cli_version: 0.15.4
+    framework: keras
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1688511294.653593
+    t:
+      1:
+      - 2
+      - 3
+      - 55
+      2:
+      - 2
+      - 3
+      - 55
+      3:
+      - 2
+      - 7
+      - 16
+      - 23
+      - 38
+      4: 3.9.16
+      5: 0.15.4
+      8:
+      - 1
+      - 3
+      - 5
+    m:
+    - 1: batch/batch_step
+      6:
+      - 3
+    - 1: batch/loss
+      5: 1
+      6:
+      - 1
+    - 1: batch/mae
+      5: 1
+      6:
+      - 1
+    - 1: batch/mse
+      5: 1
+      6:
+      - 1
+    - 1: batch/learning_rate
+      5: 1
+      6:
+      - 1
