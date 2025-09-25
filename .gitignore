@@ -27,4 +27,4 @@ info.log
 *.log
 
 # Heavy files for LLM training
-disilbert-base-uncased-finetuned-emotion/
+distilbert-base-uncased-finetuned-emotion
