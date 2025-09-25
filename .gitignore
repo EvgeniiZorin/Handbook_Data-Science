@@ -25,3 +25,6 @@ mySecrets.py
 log.log
 info.log
 *.log
+
+# Heavy files for LLM training
+disilbert-base-uncased-finetuned-emotion/
