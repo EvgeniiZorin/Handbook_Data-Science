@@ -6,6 +6,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
+def get_data_air_passengers() -> pd.DataFrame:
+    """
+    Data sourced from https://www.kaggle.com/datasets/ashfakyeafi/air-passenger-data-for-time-series-analysis.
+    """
+    time_series = pd.read_csv('my_datasets/time-series/AirPassengers.csv')
+    time_series['Month'] = pd.to_datetime(time_series['Month'])
+    return time_series
+
+
 def plot_predictions(
 	date_column: str,
 	value_column: str,
@@ -42,3 +51,5 @@ def plot_predictions(
 	plt.title(title)
 	plt.show()
 	return None
+
+
