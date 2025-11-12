@@ -275,6 +275,21 @@ files = [
 ]
 
 [[package]]
+name = "click"
+version = "8.3.0"
+description = "Composable command line interface toolkit"
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "click-8.3.0-py3-none-any.whl", hash = "sha256:9b9f285302c6e3064f4330c05f05b81945b2a39544279343e6e7c5f27a9baddc"},
+    {file = "click-8.3.0.tar.gz", hash = "sha256:e7b8232224eba16f4ebe410c25ced9f7875cb5f3263ffc93cc3e8da705e229c4"},
+]
+
+[package.dependencies]
+colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 description = "Cross-platform colored terminal text."
@@ -910,6 +925,18 @@ qa = ["flake8 (==5.0.4)", "mypy (==0.971)", "types-setuptools (==67.2.0.1)"]
 testing = ["Django", "attrs", "colorama", "docopt", "pytest (<9.0.0)"]
 
 [[package]]
+name = "joblib"
+version = "1.5.2"
+description = "Lightweight pipelining with Python functions"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "joblib-1.5.2-py3-none-any.whl", hash = "sha256:4e1f0bdbb987e6d843c70cf43714cb276623def372df3c22fe5266b2670bc241"},
+    {file = "joblib-1.5.2.tar.gz", hash = "sha256:3faa5c39054b2f03ca547da9b2f52fde67c06240c31853f306aea97f13647b55"},
+]
+
+[[package]]
 name = "jupyter-client"
 version = "8.6.3"
 description = "Jupyter protocol implementation and client libraries"
@@ -978,6 +1005,32 @@ files = [
     {file = "nest_asyncio-1.6.0-py3-none-any.whl", hash = "sha256:87af6efd6b5e897c81050477ef65c62e2b2f35d51703cae01aff2905b1852e1c"},
     {file = "nest_asyncio-1.6.0.tar.gz", hash = "sha256:6f172d5449aca15afd6c646851f4e31e02c598d553a667e38cafa997cfec55fe"},
 ]
+
+[[package]]
+name = "nltk"
+version = "3.9.2"
+description = "Natural Language Toolkit"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "nltk-3.9.2-py3-none-any.whl", hash = "sha256:1e209d2b3009110635ed9709a67a1a3e33a10f799490fa71cf4bec218c11c88a"},
+    {file = "nltk-3.9.2.tar.gz", hash = "sha256:0f409e9b069ca4177c1903c3e843eef90c7e92992fa4931ae607da6de49e1419"},
+]
+
+[package.dependencies]
+click = "*"
+joblib = "*"
+regex = ">=2021.8.3"
+tqdm = "*"
+
+[package.extras]
+all = ["matplotlib", "numpy", "pyparsing", "python-crfsuite", "requests", "scikit-learn", "scipy", "twython"]
+corenlp = ["requests"]
+machine-learning = ["numpy", "python-crfsuite", "scikit-learn", "scipy"]
+plot = ["matplotlib"]
+tgrep = ["pyparsing"]
+twitter = ["twython"]
 
 [[package]]
 name = "numpy"
@@ -1900,6 +1953,33 @@ pure-eval = "*"
 tests = ["cython", "littleutils", "pygments", "pytest", "typeguard"]
 
 [[package]]
+name = "textdistance"
+version = "4.6.3"
+description = "Compute distance between the two texts."
+optional = false
+python-versions = ">=3.5"
+groups = ["main"]
+files = [
+    {file = "textdistance-4.6.3-py3-none-any.whl", hash = "sha256:0cb1b2cc8e3339ddc3e0f8c870e49fb49de6ecc42a718917308b3c971f34aa56"},
+    {file = "textdistance-4.6.3.tar.gz", hash = "sha256:d6dabc50b4ea832cdcf0e1e6021bd0c7fcd9ade155888d79bb6a3c31fce2dc6f"},
+]
+
+[package.extras]
+all = ["Levenshtein", "distance", "jellyfish", "numpy", "py-stringmatching", "pylev", "pyxDamerauLevenshtein", "rapidfuzz (>=2.6.0)", "tabulate"]
+benchmark = ["Levenshtein", "distance", "jellyfish", "numpy", "py-stringmatching", "pylev", "pyxDamerauLevenshtein", "rapidfuzz (>=2.6.0)", "tabulate"]
+benchmarks = ["Levenshtein", "distance", "jellyfish", "numpy", "py-stringmatching", "pylev", "pyxDamerauLevenshtein", "rapidfuzz (>=2.6.0)", "tabulate"]
+common = ["Levenshtein", "jellyfish", "numpy", "pyxDamerauLevenshtein", "rapidfuzz (>=2.6.0)"]
+dameraulevenshtein = ["jellyfish", "pyxDamerauLevenshtein", "rapidfuzz (>=2.6.0)"]
+extra = ["Levenshtein", "jellyfish", "numpy", "pyxDamerauLevenshtein", "rapidfuzz (>=2.6.0)"]
+extras = ["Levenshtein", "jellyfish", "numpy", "pyxDamerauLevenshtein", "rapidfuzz (>=2.6.0)"]
+hamming = ["Levenshtein", "distance", "jellyfish", "rapidfuzz (>=2.6.0)"]
+jaro = ["Levenshtein", "rapidfuzz (>=2.6.0)"]
+jarowinkler = ["jellyfish", "rapidfuzz (>=2.6.0)"]
+levenshtein = ["Levenshtein", "rapidfuzz (>=2.6.0)"]
+lint = ["flake8", "flake8-blind-except", "flake8-bugbear", "flake8-commas", "flake8-logging-format", "flake8-mutable", "flake8-pep3101", "flake8-quotes", "flake8-string-format", "flake8-tidy-imports", "isort", "mypy", "pep8-naming", "twine", "types-tabulate"]
+test = ["hypothesis", "isort", "numpy", "pytest"]
+
+[[package]]
 name = "tokenizers"
 version = "0.22.1"
 description = ""
@@ -2124,4 +2204,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "892bac021279c190c9432d8ea88e596348d968229f2eb57eb559f73212ca1ec6"
+content-hash = "ab50c491a902336848629329bd6fe777f3da3e32514549729353836398a52720"
