@@ -28,3 +28,6 @@ info.log
 
 # Heavy files for LLM training
 distilbert-base-uncased-finetuned-emotion
+
+# Ignore folder files
+ignore_these
