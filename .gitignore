@@ -31,3 +31,4 @@ distilbert-base-uncased-finetuned-emotion
 
 # Ignore folder files
 ignore_these/*
+ml_input/*
